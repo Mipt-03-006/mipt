@@ -8,5 +8,6 @@ int main()
     int x;
     int* a;
     cin >> a;
+    int x;
     cout << a;
 }
