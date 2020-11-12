@@ -1,13 +1,8 @@
 #include <iostream>
-#include <stdlib.h>
-using namespace std;
+
+using std::cout;
 
 int main()
 {
-    int *ip;
-    int x;
-    int* a;
-    cin >> a;
-    int x;
-    cout << a;
+    cout << "Leonid was here.";
 }
