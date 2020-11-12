@@ -1,0 +1,31 @@
+﻿  change_number100.cpp
+C:\Users\ismat\Desktop\vcpkg-master (1)\vcpkg-master\installed\x86-windows\include\uwebsockets\WebSocketProtocol.h(328,68): warning C4244: 'argument': conversion from 'T' to 'size_t', possible loss of data
+          with
+          [
+              T=uint64_t
+          ]
+C:\Users\ismat\Desktop\vcpkg-master (1)\vcpkg-master\installed\x86-windows\include\uwebsockets\WebSocketProtocol.h(435): message : see reference to function template instantiation 'bool uWS::WebSocketProtocol<true,uWS::WebSocketContext<false,true>>::consumeMessage<14,uint64_t>(T,char *&,unsigned int &,uWS::WebSocketState<true> *,void *)' being compiled
+          with
+          [
+              T=uint64_t
+          ]
+C:\Users\ismat\Desktop\vcpkg-master (1)\vcpkg-master\installed\x86-windows\include\uwebsockets\WebSocketProtocol.h(435): message : see reference to function template instantiation 'bool uWS::WebSocketProtocol<true,uWS::WebSocketContext<false,true>>::consumeMessage<14,uint64_t>(T,char *&,unsigned int &,uWS::WebSocketState<true> *,void *)' being compiled
+          with
+          [
+              T=uint64_t
+          ]
+C:\Users\ismat\Desktop\vcpkg-master (1)\vcpkg-master\installed\x86-windows\include\uwebsockets\WebSocketProtocol.h(406): message : while compiling class template member function 'void uWS::WebSocketProtocol<true,uWS::WebSocketContext<false,true>>::consume(char *,unsigned int,uWS::WebSocketState<true> *,void *)'
+C:\Users\ismat\Desktop\vcpkg-master (1)\vcpkg-master\installed\x86-windows\include\uwebsockets\WebSocketContext.h(285): message : see reference to function template instantiation 'void uWS::WebSocketProtocol<true,uWS::WebSocketContext<false,true>>::consume(char *,unsigned int,uWS::WebSocketState<true> *,void *)' being compiled
+C:\Users\ismat\Desktop\vcpkg-master (1)\vcpkg-master\installed\x86-windows\include\uwebsockets\WebSocketContext.h(285): message : see reference to class template instantiation 'uWS::WebSocketProtocol<true,uWS::WebSocketContext<false,true>>' being compiled
+C:\Users\ismat\Desktop\vcpkg-master (1)\vcpkg-master\installed\x86-windows\include\uwebsockets\WebSocketContext.h(234): message : while compiling class template member function 'uWS::WebSocketContext<false,true> *uWS::WebSocketContext<false,true>::init(void)'
+C:\Users\ismat\Desktop\vcpkg-master (1)\vcpkg-master\installed\x86-windows\include\uwebsockets\WebSocketContext.h(389): message : see reference to function template instantiation 'uWS::WebSocketContext<false,true> *uWS::WebSocketContext<false,true>::init(void)' being compiled
+C:\Users\ismat\Desktop\vcpkg-master (1)\vcpkg-master\installed\x86-windows\include\uwebsockets\App.h(93): message : see reference to class template instantiation 'uWS::WebSocketContext<false,true>' being compiled
+C:\Users\ismat\Desktop\vcpkg-master (1)\vcpkg-master\installed\x86-windows\include\uwebsockets\App.h(87): message : while compiling class template member function 'uWS::TemplatedApp<false>::~TemplatedApp(void)'
+C:\Users\ismat\source\repos\change_number100\change_number100\change_number100.cpp(108): message : see reference to function template instantiation 'uWS::TemplatedApp<false>::~TemplatedApp(void)' being compiled
+C:\Users\ismat\source\repos\change_number100\change_number100\change_number100.cpp(54): message : see reference to class template instantiation 'uWS::TemplatedApp<false>' being compiled
+C:\Users\ismat\Desktop\vcpkg-master (1)\vcpkg-master\installed\x86-windows\include\uwebsockets\WebSocketProtocol.h(332,64): warning C4244: 'argument': conversion from 'T' to 'size_t', possible loss of data
+          with
+          [
+              T=uint64_t
+          ]
+  change_number100.vcxproj -> C:\Users\ismat\source\repos\change_number100\Debug\change_number100.exe
