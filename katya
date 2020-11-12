@@ -1,1 +1,2 @@
-cout << "Priveet";
+#include <iostream>
+std :: cout << "Priveet";
